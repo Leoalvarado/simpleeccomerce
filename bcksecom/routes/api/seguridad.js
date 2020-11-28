@@ -4,6 +4,7 @@ let jwt = require('jsonwebtoken');
 
 let SecurityModel = require("../../models/seguridad/seguridad.model");
 let SecMdl = new SecurityModel();
+
 // login
 router.post('/login', async(req, res)=>{
   try{
